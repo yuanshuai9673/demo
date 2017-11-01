@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+.wrap{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 358px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #cf5565;
+}
+.nav_1{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+.nav_1 span{
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    float: left;
+}
+.nav_1 ul{
+    width: 405px;
+    height: 50px;
+    float: right;
+}
+.nav_1 ul li{
+    float: left;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.nav_1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 8px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.main{
+    width: 100%;
+    height: 300px;
+    background-color: #ffeb8b;
+}
+.main_1{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main_1 dl{
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+    padding-top: 44px;
+    box-sizing: border-box;
+    float: left;
+}
+.main_1 dd h2{
+    color: #c1343f;
+}
+.main_1 dd p{
+    color: #dd4f63;
+}
+.main_1 dt img{
+    width: 160px;
+    height: 160px;
+    margin-top: 11px;
+    border-radius: 50%;
+}
+.content{
+    width: 100%;
+}
+.content_1{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content_le{
+    width: 70%;
+    float: left;
+}
+.user_le{
+    width: 70%;
+    float: left;
+}
+.user_ri{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.content_ri{
+    padding-left: 30px;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.content_le p{
+    margin-top: 10px;
+}
+.content_le ul li{
+    list-style: disc;
+    margin-left: 20px;
+}
+.content_le h2,.user_ri h2{
+    color: #c1343f;
+    margin: 20px 0 10px 0;
+}
+.content_le>h6{
+    color: #dd5774;
+}
+.content_ri h2{
+    color: #c1343f;
+    margin: 20px 0 10px 0;
+}
+.content_ri ul li{
+    margin-bottom: 10px;
+    list-style: disc;
+    margin-left: 20px;
+}
+.content_ri div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    float: left;
+    margin: 10px 5px 5px 10px;
+}
+.nr{
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+}
+.nr1{
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+.nr1 img{
+    border-radius: 50%;
+}
+.nr2{
+    width: 595px;
+    height: 160px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.one,.two,.three{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.one1 img,.three img{
+    width: 100%;
+    height: 500px;
+}
+.two img{
+    width: 400px;
+    height: 600px;
+}
+.one2,.two2,.three2{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.user_ri input{
+    width: 300px;
+    height: 28px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    margin: 6px 0;
+}
+#wb{
+    width: 300px;
+    height: 150px;
+    border: 1px solid #cccccc;
+    margin: 6px 0;
+}
+#btn{
+    width: 68px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    float: right;
+    margin-right: 23px;
+}
+.user_le h2{
+    color: #c13451;
+    margin: 20px 0 10px 0;
+}
+.ly{
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.ly p:nth-child(1){
+    color: #333339;
+    display: block;
+    float: left;
+  margin: 0 6px 0 30px;
+}
+.ly p:nth-child(2){
+    width: 64px;
+    height: 25px;
+    color: white;
+    display: inline-block;
+    background-color: #5bc0de;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 25px;
+}
+.ly p:nth-child(3){
+    text-indent: 30px;
+}
+.chat_main{
+    width: 100%;
+}
+.chat_main1{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.chat_main1 h2{
+    margin: 20px 0;
+}
+#na{
+    float: left;
+    display: block;
+    margin: 10px 30px 20px 100px;
+}
+#name{
+    width: 83%;
+    height: 30px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin: 0 0 20px 0;
+}
+#me{
+    float: left;
+    display: block;
+    margin: 10px 30px 20px 77px;
+}
+#mes{
+    width: 83%;
+    height: 30px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+#wby{
+    width: 100%;
+    height: 135px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    border: 1px solid #cccccc;
+    margin-bottom: 50px;
+}

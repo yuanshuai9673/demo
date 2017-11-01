@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/q/css/css.css"/>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <div class="banner"></div>
+    <div class="nav">
+        <div class="nav_1">
+            <span>Roux Meetups</span>
+            <ul>
+                <li><a href="http://localhost:3000">Home</a></li>
+                <li><a href="http://localhost:3000/mem">Speakers <i class="caret"></i></a></li>
+                <li><a href="##">Feedback</a></li>
+                <li><a href="http://localhost:3000/chat">Chat</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_1">
+            <div class="user_ri">
+                <h2>Send us feedback</h2>
+                <h4>Name</h4>
+                <form action="http://localhost:3000/user" method="POST">
+                <input type="text" name="box" id="box"/>
+                <h4>Title</h4>
+                <input type="text" name="text" id="text"/>
+                <h4>Message</h4>
+                <textarea name="wb" id="wb"></textarea>
+                <input type="submit" id="btn">
+                </form>
+            </div>
+            <div class="user_le">
+                <h2>Recent Feedback</h2>
+                <%for(var i=0;i<data.length;i++){%>
+                <div class="ly" click="<%%>">
+                    <p class="dename"> <%=data[i].box%></p>
+                    <p class="aeconte"><%=data[i].text%></p>
+                    <p class="cc"><%=data[i].wb%></p>
+                </div>
+                <%}%>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
